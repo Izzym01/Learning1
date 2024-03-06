@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+form {
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(99, 98, 98);
+}
+
+#tempinput {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#submitbtn {
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#submitbtn:hover {
+    background-color: hsl(120, 96%, 30%);
+}
+
+#submitbtn:active {
+    background-color: hsl(120, 96%, 18%);
+}
+
+#results {
+    font-size: 1.5em;
+    font-weight: bold;
+}
